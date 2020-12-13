@@ -1,0 +1,27 @@
+.attribute{
+    margin-top: 90px;
+    color: black;
+    
+}
+
+.attribute br {
+    display: none;
+}
+
+.attribute a{
+    color: rgb(0, 4, 255);
+}
+
+@media (max-width: 626px){
+    .attribute br {
+        display: block;
+    }
+
+    .attribute{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
